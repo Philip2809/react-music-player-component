@@ -1,0 +1,44 @@
+{
+  "name": "@philip2809/react-component-template",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/philip2809"
+  },
+  "version": "0.0.0",
+  "description": "A React component template that you can publish to npm easily",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "author": "Philip Magyar <philipandremagyar@gmail.com>",
+  "contributors": [
+    "Philip Magyar <philipandremagyar@gmail.com>"
+  ],
+  "license": "cc0-1.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^17.0.43",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.12",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.49.9",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
